@@ -1,0 +1,11 @@
+#box {
+  border: 2px solid black;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  user-select: none;
+}
