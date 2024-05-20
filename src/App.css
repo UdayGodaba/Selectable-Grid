@@ -9,3 +9,7 @@
   grid-template-columns: repeat(var(--columns), 1fr);
   user-select: none;
 }
+
+.selected {
+  background-color: rgb(124, 240, 124);
+}
